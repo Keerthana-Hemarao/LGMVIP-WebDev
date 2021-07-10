@@ -1,0 +1,222 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background-image:url('backgr.jpeg');
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color:darkslategray;
+}
+header img
+{
+    width: 170px;
+    float: left;
+}
+.login-btn
+{
+    width: 75px;
+    padding : 8px 0;
+    outline: none !important;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background:transparent;
+    color: #fff;
+    float: right;
+    
+
+}
+header h1
+{
+    padding-top: 90px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header h2
+{
+    font-size: 15;
+}
+header p{
+    margin: 18px 0;
+}
+.input-group
+{
+    width:50%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 5px;
+    
+}
+.form-control
+{
+    border: 0  !important;
+    border-radius: 30px  !important;
+    margin: 2px;
+    box-shadow: none !important;
+
+}
+.features
+{
+    padding: 350px 0;
+    padding-bottom: 100px;
+}
+h1{ 
+    text-emphasis: center;
+    padding-bottom: 40px;
+}
+.feature-img img
+{
+    width:110%;
+}
+.price
+{
+    width: 60px;
+    height: 60px;
+    background:#4ea7fa;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0,18);
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+}
+.feature-img
+{
+    position: relative;
+}
+.feature-details
+{
+    padding: 15px;
+    text-align: justify;
+}
+.feature-details .fa 
+{
+    margin-right: 3px;
+}
+.rating
+{
+    color: #2674bd;
+ 
+}
+.gallery
+{
+    padding: 80px 0;
+    background:rgba(119, 171, 240, 0.979);
+   
+}
+.gallery-box img
+{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gallery-box img:hover
+{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    
+    width: 200px;
+    color: #fff;
+  text-align: center;
+    font-weight: 600;
+    position: absolute;
+    text-shadow: -2px 2px 2px #000;
+    float: left;
+   left: -50px;
+   
+}
+.gallery-box
+{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.banner
+{
+    height: 80%;
+    background-image:url(banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:   14% ;
+}
+.banner-highlights
+{
+    padding: 70px 0;
+    background :rgba(0,0,0,0.7) ;
+    text-align: center;
+    color: #fff;
+}
+.booking-btn
+{
+    width: 120px;
+    padding : 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+   margin-top: 20px;
+}
+.users-review
+{
+    padding: 100px 0;
+    padding-bottom: 10 px;
+}
+.user-reviews
+{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-reviews p{
+    padding: 50px 10px 10px 10px ;
+}
+.users-feedback img
+{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+position: relative;
+margin: -30px 0 20 px 40%;
+}
+
+.footer
+{
+    padding: 100px 20px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: #fff;
+}
+.footer-logo
+{
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: auto;
+ 
+}
+.footer h4{
+    margin-top: 14px;
+    margin-bottom: auto;
+
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr
+{
+    margin-top: 10px;
+    background: #ca1d1d;
+    border-top: 10px solid #df2e2e;
+}
